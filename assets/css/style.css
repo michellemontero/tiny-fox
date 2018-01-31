@@ -1,4 +1,4 @@
-apellido@import url(https://fonts.googleapis.com/css?family=Lato:400,900,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,300);
 @import 'https://fonts.googleapis.com/css?family=Cantarell:400,700';
 
 
@@ -978,6 +978,7 @@ b i:last-child {
 
 .centerfs {
 	font-size: 15px;
+	letter-spacing: 1px;
 }
 
 .scroll {
@@ -1205,6 +1206,9 @@ footer a:hover {
 
 .logo-footer{
 		margin-bottom: 30px;
+		float: left;
+		padding: 20px;
+		padding-top: 0;
 }
 
 .footer-widget h4 {
@@ -1295,7 +1299,9 @@ footer a:hover {
 }
 
 .contact-widget p {
-   padding-bottom: 20px;
+   padding: 20px;
+	 float: left;
+	 margin: 0 20px;
 }
 
 .twitter-widget a:hover {
@@ -1322,7 +1328,6 @@ footer a:hover {
 .copyright-section {
     padding: 30px 0;
     font-size: 15px;
-        border-top: 1px solid #131313;
 }
 
 .copyright-section p {
@@ -2363,6 +2368,7 @@ ul.servicios-list li{
     color: #777;
     font-size: 12px;
     font-weight: 300;
+		letter-spacing: 1px;
     line-height: 2;
 }
 
@@ -2423,7 +2429,7 @@ ul.servicios-list li{
     font-weight: 300
 }
 
-#company.form-control{
+#apellido.form-control{
     width: 100%;
     height: 50px;
     padding: 10px;
